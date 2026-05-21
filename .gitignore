@@ -1,0 +1,21 @@
+# Runtime uploads and user files
+uploads/
+
+# Backups
+backups/
+
+# Temp files
+temp/
+
+# Compiled assets cache
+assets/themes/perfex/css/compiled/
+
+# Log files
+application/logs/
+
+# PHP error logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

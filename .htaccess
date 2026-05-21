@@ -1,0 +1,12 @@
+# .htaccess in /perfex/crm/
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /perfex/crm
+    RewriteRule ^index\.php$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . index.php [L]
+</IfModule>
+
+# Test Rule
+Redirect 301 /test-redirect https://example.com
